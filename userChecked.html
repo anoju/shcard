@@ -1,0 +1,941 @@
+<!DOCTYPE html>
+<!--[if lt IE 8]><html class="lt-ie10 lt-ie9 lt-ie8" lang="ko"><![endif]-->
+<!--[if IE 8]><html class="lt-ie10 lt-ie9" lang="ko"><![endif]-->
+<!--[if IE 9]><html class="lt-ie10" lang="ko"><![endif]-->
+<!--[if gt IE 9]><!--><html lang="ko"><!--<![endif]-->
+<head>
+	<title>인증하기 | 신한카드 오토다이렉트</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+	<link rel="canonical" href="https://myauto.shinhancard.com/">
+
+	<link rel="shortcut icon" type="image/x-icon" href="./conts/images/favicon.png">
+	<link rel="apple‐touch‐icon" href="./conts/images/touch‐icon‐iphone.png">
+	<link rel="apple‐touch‐icon" sizes="152x152" href="./conts/images/touch‐icon‐ipad.png">
+	<link rel="apple‐touch‐icon" sizes="180x180" href="./conts/images/touch‐icon‐iphone‐retina.png">
+	<link rel="apple‐touch‐icon" sizes="167x167" href="./conts/images/touch‐icon‐ipad‐retina.png">
+	<link rel="manifest" href="/conts/manifest.json">
+
+	<meta name="apple-mobile-web-app-title" content="신한카드 오토다이렉트">
+	<meta property="og:locale" content="ko_KR">
+	<meta property="og:site_name" content="신한카드 오토다이렉트">
+	<meta property="og:title" content="신한카드 오토다이렉트">
+	<meta property="og:url" content="https://myauto.shinhancard.com/">
+	<meta property="og:image" content="https://myauto.shinhancard.com/conts/images/logo_800x800.png">
+	<meta property="og:description" content="자동차금융 전문업체, 할부금융, 리스, 카드 등 정보 제공.">
+	<meta name="twitter:title" content="신한카드 오토다이렉트">
+	<meta name="twitter:site" content="https://myauto.shinhancard.com/">
+	<meta name="twitter:image" content="https://myauto.shinhancard.com/conts/images/logo_800x800.png">
+	<meta name="twitter:description" content="자동차금융 전문업체, 할부금융, 리스, 카드 등 정보 제공.">
+
+	<!-- style -->
+	<link rel="stylesheet" href="./conts/css/common.css" media="all">
+	<link rel="stylesheet" href="./conts/css/contents.css" media="all">
+
+	<!-- javascript -->
+	<script src="./conts/js/lib/jquery-1.12.4.min.js"></script>
+	<script src="./conts/js/lib/jquery-migrate-1.3.0.min.js"></script>
+	<script src="./conts/js/lib/jquery-ui.min.js"></script>
+	<!--[if lt IE 9]>
+		<script src="./conts/js/lib/html5Shiv.js"></script>
+	<![endif]-->
+	<script src="./conts/js/plugins.js"></script>
+	<script src="./conts/js/ui/ui-front.js"></script>
+	<!-- //javascript -->
+</head>
+<body>
+<!-- skipNavi -->
+<div id="skipNavi">
+    <a href="#contents">본문 바로가기</a>
+    <a href="#gnb">주메뉴 바로가기</a>
+    <a href="#footer">사이트정보 바로가기</a>
+</div>
+<!-- //skipNavi -->
+
+<!-- wrap -->
+<div id="wrap">
+    <!-- header -->
+    <header id="header">
+        <div class="head_in">
+            <div class="head_top">
+                <div class="ly_inner">
+                    <h1 id="logo"><a href="/">신한카드 오토다이렉트</a></h1>
+                    <!-- 로그인 후 -->                  
+                    <div class="head_util">
+                        <!-- 마크업 구조변경 #08.13 : div 추가 -->
+                        <div class="head_user">
+                            <dl>
+                                <dt><a href="#headUserInfo">SINCE 1995  김신한님</a></dt>
+                                <dd id="headUserInfo">
+                                    <p>카드입회년도, 지정색: 하늘</p>
+                                    <div>
+                                        <a href="#" class="button h20 btn_transparent">회원정보수정</a>
+                                        <a href="#" class="button h20 btn_transparent">로그아웃</a>
+                                    </div>
+                                    <a href="#" class="head_user_close">닫기</a>
+                                </dd>
+                            </dl>
+                        </div>
+                        <!-- //마크업 구조변경 #08.13 : div 추가 -->
+                        <div class="head_time"><span class="blind">남은시간</span>09:56 <button><span class="blind">시간</span>연장</button></div>
+                    </div>
+                    <!-- //로그인 후 -->                    
+
+                    <!-- 로그인 전 -->
+                    <!-- <div class="head_util">
+                        <div><a href="#">로그인</a></div>
+                        <div><a href="#">회원가입</a></div>
+                    </div> -->
+                    <!-- //로그인 전 -->
+                </div>
+            </div>
+            <div class="head_cont">
+                <div class="ly_inner">
+                    <div class="head_title"><h2><a href="#">회원가입</a></h2></div>
+                    <div class="head_btn">
+                        <a href="javascript:history.back()" class="btn_back"><span class="blind">이전으로</span></a>
+                        <a href="#gnb" class="btn_gnb">
+                            <i></i>
+                            <span class="blind">글로벌메뉴 열림</span>
+                        </a>
+                    </div>                  
+                    <div class="head_menu">
+                        <a href="#" class="btn_cart"><span class="blind">견적함</span><strong>99</strong></a><!-- #08.07 견적함으로 변경 -->
+                        <a href="#" class="btn_search"><span class="blind">검색하기</span></a>
+                    </div>
+                </div>
+                <div class="gnb_wrap">
+                    <div class="gnb_head">
+                        <h2 class="gnb_logo"><a href="/">신한 오토다이렉트</a></h2>                     
+                    </div>
+                    <div class="gnb_navi">
+                        <div class="ly_inner">
+                            <nav id="gnb">
+                                <h3 class="blind">글로벌메뉴 네비게이션</h3>                          
+                                <ul class="dep1">
+                                    <li><a href="#">MyAUTO 안내</a>
+                                        <div class="dep2">
+                                            <ul>
+                                                <li><a href="#">myAUTO 특징</a></li>
+                                                <li class="in_sub"><a href="#">신차</a>
+                                                    <div class="dep3">
+                                                        <ul>
+                                                            <li><a href="#">국산차 상품안내</a></li>
+                                                            <li><a href="#">수입차 상품안내</a></li>
+                                                            <li><a href="#">상담신청</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li class="in_sub"><a href="#">중고차</a>
+                                                    <div class="dep3">
+                                                        <ul>
+                                                            <li><a href="#">중고차 상품안내</a></li>
+                                                            <li><a href="#">상담신청</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li class="in_sub"><a href="#">장기렌터카</a>
+                                                    <div class="dep3">
+                                                        <ul>
+                                                            <li><a href="#">장기렌터카 이용안내</a></li>
+                                                            <li><a href="#">상담신청</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li class="in_sub"><a href="#">오토리스</a>
+                                                    <div class="dep3">
+                                                        <ul>
+                                                            <li><a href="#">오토리스 이용안내</a></li>
+                                                            <li><a href="#">상담신청</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li class="in_sub"><a href="#">기타상품</a>
+                                                    <div class="dep3">
+                                                        <ul>
+                                                            <li><a href="#">산업재 상품안내</a></li>
+                                                            <li><a href="#">내구재 상품안내</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li><a href="#">다이렉트견적</a>
+                                        <div class="dep2">
+                                            <ul>
+                                                <li class="in_sub"><a href="#">신차/리스/렌터카견적</a>
+                                                    <div class="dep3">
+                                                        <ul>
+                                                            <li><a href="#">중고차 상품안내</a></li>
+                                                            <li><a href="#">상담신청</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li><a href="#">견적보관함</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li><a href="#">한도조회·대출</a>
+                                        <div class="dep2">
+                                            <ul>
+                                                <li><a href="#">한도가능조회</a></li>
+                                                <li><a href="#">대출신청</a></li>
+                                                <li><a href="#">신청결과조회</a></li>
+                                                <li><a href="#">대출서류등록</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li><a href="#">마이페이지</a>
+                                        <div class="dep2">
+                                            <ul>
+                                                <li><a href="#">이용상품현황</a></li>
+                                                <li class="in_sub"><a href="#">상품이용내역</a>
+                                                    <div class="dep3">
+                                                        <ul>
+                                                            <li><a href="#">결제내역</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li class="in_sub"><a href="#">신청조회</a>
+                                                    <div class="dep3">
+                                                        <ul>
+                                                            <li><a href="#">자동차세/범칙금조회</a></li>
+                                                            <li><a href="#">중도상환 신청/조회</a></li>
+                                                            <li><a href="#">가상계좌 신청/조회</a></li>
+                                                            <li><a href="#">즉시납부</a></li>
+                                                            <li><a href="#">대출철회</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li class="in_sub"><a href="#">변경/요청</a>
+                                                    <div class="dep3">
+                                                        <ul>
+                                                            <li><a href="#">결제일 변경</a></li>
+                                                            <li><a href="#">자동이체계좌변경</a></li>
+                                                            <li><a href="#">차량근저당해지신청</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li class="in_sub"><a href="#">증명서 조회/신청</a>
+                                                    <div class="dep3">
+                                                        <ul>
+                                                            <li><a href="#">리스확정명세서</a></li>
+                                                            <li><a href="#">통지서조회</a></li>
+                                                            <li><a href="#">제증명신청</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </nav>                  
+                        </div>
+                    </div>
+                    <div class="gnb_util">
+                        <div class="ly_inner">
+                            <div class="box">
+                                <div class="left">
+                                    <!-- CMS영역 -->
+                                    <div class="gnb_swiper">
+                                        <div class="swiper-container">
+                                            <ul class="swiper-wrapper">
+                                                <li class="swiper-slide">
+                                                    <a href="#" class="web"><img src="../conts/images/temp/gnb_banner.png" alt=""></a> <!-- 웹배너 -->
+                                                    <a href="#" class="mobile"><img src="../conts/images/temp/gnb_banner_m.png" alt=""></a> <!-- 모바일배너 -->
+                                                </li>
+                                                <li class="swiper-slide">
+                                                    <a href="#" class="web"><img src="../conts/images/temp/gnb_banner.png" alt=""></a> <!-- 웹배너 -->
+                                                    <a href="#" class="mobile"><img src="../conts/images/temp/gnb_banner_m.png" alt=""></a> <!-- 모바일배너 -->
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="navi">
+                                            <a href="#" class="btn_arr btn_prev">이전배너</a>
+                                            <a href="#" class="btn_arr btn_next">다음배너</a>
+                                        </div>
+                                    </div>
+                                    <!-- //CMS영역 -->
+                                </div>
+                                <div class="right">
+                                    <div class="gnb_link">
+                                        <!-- 로그인 전 -->
+                                        <a href="#">로그인</a>
+                                        <a href="#">회원가입</a>
+                                        <a href="#">이벤트</a>
+                                        <a href="#">고객센터</a>
+                                        <!-- //로그인 전 -->
+
+                                        <!-- 로그인 후 -->
+                                        <!-- <a href="#">회원정보수정</a>                                 
+                                        <a href="#">이벤트</a>
+                                        <a href="#">이용안내</a>
+                                        <a href="#">고객센터</a> -->
+                                        <!-- //로그인 후 -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- 견적함 레이어 -->
+        <article class="cart_box">
+            <div>
+                <div class="cart_head"><h1>견적함</h1></div>
+                <div class="cart_cont">
+                    <div class="cart_tit">
+                        <h2><strong>김신한</strong>님, 최근 차량견적내역입니다.</h2>
+                        <p class="sub"><strong>견적보관함 <span>3</span></strong></p>
+                    </div>
+                    <div class="cart_list">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <div class="img"><img src="../conts/images/model/303_3498.png" alt="TUCSON_투싼"></div>
+                                    <div class="info">
+                                        <i class="ic_txt ic_skyblue">차량견적</i>
+                                        <div class="date">20:00:00 저장됨</div>
+                                        <div class="tit"><span>현대</span><strong>TUCSON_투싼</strong></div>
+                                        <div class="opt">
+                                            <span>소형</span>
+                                            <span>하이브리드</span>
+                                            <span>1,580cc</span>
+                                            <span>5인승</span>
+                                        </div>
+                                        <div class="price"><strong>월 290,400</strong>원</div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="img"><img src="../conts/images/model/303_3498.png" alt="TUCSON_투싼"></div>
+                                    <div class="info">
+                                        <i class="ic_txt ic_skyblue">차량견적</i>
+                                        <div class="date">20:00:00 저장됨</div>
+                                        <div class="tit"><span>현대</span><strong>TUCSON_투싼</strong></div>
+                                        <div class="opt">
+                                            <span>소형</span>
+                                            <span>하이브리드</span>
+                                            <span>1,580cc</span>
+                                            <span>5인승</span>
+                                        </div>
+                                        <div class="price"><strong>월 290,400</strong>원</div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="img"><img src="../conts/images/model/303_3498.png" alt="TUCSON_투싼"></div>
+                                    <div class="info">
+                                        <i class="ic_txt ic_skyblue">차량견적</i>
+                                        <div class="date">20:00:00 저장됨</div>
+                                        <div class="tit"><span>현대</span><strong>TUCSON_투싼</strong></div>
+                                        <div class="opt">
+                                            <span>소형</span>
+                                            <span>하이브리드</span>
+                                            <span>1,580cc</span>
+                                            <span>5인승</span>
+                                        </div>
+                                        <div class="price"><strong>월 290,400</strong>원</div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="no_list">
+                                고객님이 저장하신 <br>
+                                최근 차량견적이 없습니다
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- 저장된 견적이 있을때만 버튼 보이게 -->
+                <div class="cart_btn">
+                    <a href="#" class="button h50 btn_sky">나의 견적함 가기</a>
+                </div>
+                <!-- //저장된 견적이 있을때만 버튼 보이게 -->
+                <a href="#" class="cart_close">견적함 닫기</a>
+            </div>
+        </article>
+        <!-- //견적함 레이어 -->
+        
+        <!-- LNB -->
+	    <nav id="lnb">
+	        <div class="lnb_cont">
+	            <h2 class="blind">로컬메뉴 네비게이션</h2>
+	            <div class="box_menu">
+	                <strong class="lnb_tit">마이페이지</strong>
+	                <ul class="lnb_nav">
+	                    <li><a href="#none">이용상품현황</a></li>
+	                    <li class="in_sub">
+	                        <a href="#none">상품이용내역</a>
+	                        <div>
+	                            <ul>
+	                                <li><a href="#">당월청구내역</a></li>
+	                                <li><a href="#">결제/미납내역</a></li>
+	                                <li><a href="#">상환스케줄</a></li>
+	                            </ul>
+	                        </div>
+	                    </li>
+	                    <li class="in_sub">
+	                        <a href="#none">신청/조회</a>
+	                        <div>
+	                            <ul>
+	                                <li><a href="#">자동차세/범칙금조회</a></li>
+	                                <li><a href="#">중도상환 신청/조회</a></li>
+	                                <li><a href="#">가상계좌 신청/조회</a></li>
+	                                <li><a href="#">즉시납부</a></li>
+	                            </ul>
+	                        </div>
+	                    </li>
+	                    <li class="in_sub">
+	                        <a href="#none">변경/요청</a>
+	                        <div>
+	                            <ul>
+	                                <li><a href="#">결제일변경</a></li>
+	                                <li><a href="#">자동이체계좌변경</a></li>
+	                                <li><a href="#">청구방법변경</a></li>
+	                                <li><a href="#">만기연장 신청</a></li>
+	                                <li><a href="#">차량근저당해지신청</a></li>
+	                            </ul>
+	                        </div>
+	                    </li>
+	                    <li class="in_sub">
+	                        <a href="#none">증명서 조회/신청</a>
+	                        <div>
+	                            <ul>
+	                                <li><a href="#">리스확정명세서</a></li>
+	                                <li><a href="#">통지서조회</a></li>
+	                                <li><a href="#">제증명신청</a></li>
+	                            </ul>
+	                        </div>
+	                    </li>
+	                </ul>
+	            </div>
+	        </div>
+	    </nav>
+	    <!-- //LNB --> <!-- #08.16 LNB 수정 -->
+    </header>
+    <!-- //header -->
+
+	<!-- container -->
+	<div id="container">
+		<!-- contents -->
+		<section id="contents">
+            <h2 id="pageTit" class="blind"><strong>인증하기</strong>본문 시작</h2>
+			<div class="ly_inner">
+                <div class="h_title_wrap"><h3 class="h_title">본인정보</h3></div>
+                <div class="info_wrap">
+                    <ul class="info_box">
+                        <li class="li">
+                            <p class="info_title"><label for="pesnAuth_name">성명</label></p>
+                            <div class="info_cont">
+                                <input type="text" class="input" id="pesnAuth_name" title="성명 입력" placeholder="한글성명 입력">
+                                <div class="txt_alert t_red">성명은 필수입력항목입니다.</div>
+                            </div>
+                        </li>
+                        <li class="li">
+                            <p class="info_title"><label for="pesnAuth_sid">주민번호(웹)</label></p>
+                            <div class="info_cont">
+                                <div class="jumin_wrap2">
+                                    <input class="input" type="text" id="pesnAuth_sid" title="주민번호 앞자리 입력">
+                                    <input class="input" type="password" title="주민번호 뒷자리 입력">
+                                    <span class="btns"><button type="button" class="m_none btn_mouse">마우스로 입력</button></span>
+                                </div>
+                                <div class="txt_alert t_red">주민번호는 필수입력항목입니다.</div>
+                            </div>
+                        </li>
+
+                        <li class="li">
+                            <p class="info_title"><label for="pesnAuth_sid2">주민번호(모바일)</label></p>
+                            <div class="info_cont">
+                                <div class="jumin_wrap input_row">
+                                    <input class="input" type="text" id="pesnAuth_sid2" title="주민번호 하이픈없이 입력" placeholder="(-)없이 입력">
+                                    <span class="btns"><button type="button" class="m_none btn_mouse">마우스로 입력</button></span>
+                                </div>
+                                <div class="txt_alert t_red">주민번호는 필수입력항목입니다.</div>
+                            </div>
+                        </li>
+
+                        <li class="li">
+                            <p class="info_title"><label for="pesnAuth_birth">생년월일</label></p>
+                            <div class="info_cont">
+                                <input type="text" class="input" id="pesnAuth_birth" title="생년월일 입력" placeholder="예) 19701231">
+                                <div class="txt_alert t_red">생년월일은 필수입력항목입니다.</div>
+                            </div>
+                        </li>
+                        <li class="li">
+                            <p class="info_title"><label for="pesnAuth_gender">성별</label></p>
+                            <div class="info_cont">
+                                <div class="radio_wrap">
+                                    <label class="radio"><input name="genderRdo" id="pesnAuth_gender" type="radio" checked="checked"><i></i>
+                                        <span class="lbl">남자</span>
+                                    </label>
+                                    <label class="radio"><input name="genderRdo" id="pesnAuth_gender2" type="radio"><i></i>
+                                        <span class="lbl">여자</span>
+                                    </label>
+                                </div>
+                                <div class="txt_alert t_red">성별은 필수입력항목입니다.</div>
+                            </div>
+                        </li>
+                        <li class="li">
+                            <p class="info_title"><label for="pesnAuth_phone">휴대전화</label></p>
+                            <div class="info_cont">
+                                <input type="text" class="input" id="pesnAuth_phone" title="휴대전화 입력" placeholder="(-) 없이 숫자만 입력">
+                                <div class="txt_alert t_red">휴대전화는 필수입력항목입니다.</div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="h_title_wrap"><h3 class="h_title">인증방법</h3></div>
+                <div class="ckeck_inp_wrap">
+                    <div>
+                        <!-- 공통 인증: S -->
+                        <ul class="tabmenu2 ui-tabmenu">
+                            <li><a href="#userChkCon1"><span>휴대폰</span></a></li>
+                            <li><a href="#userChkCon2"><span>카드인증</span></a></li>
+                            <li><a href="#userChkCon3"><span>공인인증서</span></a></li>
+                            <li><a href="#userChkCon4"><span>신한FAN</span></a></li>
+                        </ul>
+                        <div id="userChkCon1" class="tab_cont">
+                            <ul class="ckeck_inp_list">
+                                <li>
+                                    <p class="tit">약관동의</p>
+                                    <div class="cont">
+                                        <ul class="agree_list">
+                                            <li class="first">
+                                                <div class="agree_btn">
+                                                    <label class="checkbox">
+                                                        <input type="checkbox"><i></i>
+                                                        <strong class="lbl">전체동의</strong>
+                                                    </label>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="agree_btn">
+                                                    <label class="checkbox">
+                                                        <input type="checkbox"><i></i>
+                                                        <span class="lbl">휴대폰본인확인 이용약관동의</span>
+                                                    </label>
+                                                    <a href="#" class="btn">약관 확인</a>
+                                                </div>
+                                                <div class="agree_txt">
+                                                    <div>통신사별 휴대폰 본인확인 이용약관</div>
+                                                    <div class="btn_popup_wrap">
+                                                        <a href="#" class="btn_popup">전체약관보기</a>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="agree_btn">
+                                                    <label class="checkbox">
+                                                        <input type="checkbox"><i></i>
+                                                        <span class="lbl">개인정보 이용 및 활용 동의</span>
+                                                    </label>
+                                                    <a href="#" class="btn">약관 확인</a>
+                                                </div>
+                                                <div class="agree_txt">
+                                                    <p>본인은 SK텔레콤㈜ 또는 ㈜케이티 또는 LGU플러스㈜(이하 ‘회사’라 합니다)가 제공하는 본인확인서비스(이하 ‘서비스’라 합니다)를 이용하기 위해, 다음과 같이 ‘회사’가 본인의 개인정보를 수집/이용하고, 개인정보의 취급을 위탁하는 것에 동의합니다.</p>
+                                                    <div class="btn_popup_wrap">
+                                                        <a href="#" class="btn_popup">전체약관보기</a>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="agree_btn">
+                                                    <label class="checkbox">
+                                                        <input type="checkbox"><i></i>
+                                                        <span class="lbl">고유식별정보 처리동의</span>
+                                                    </label>
+                                                    <a href="#" class="btn">약관 확인</a>
+                                                </div>
+                                                <div class="agree_txt">
+                                                    <div>통신사별 고유식별정보 처리 동의</div>
+                                                    <div class="btn_popup_wrap">
+                                                        <a href="#" class="btn_popup">전체약관보기</a>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li>
+                                    <p class="tit">휴대전화</p>
+                                    <div class="cont">
+                                        <div class="radio_btn full ui-radio-tab mb20">
+                                            <label>
+                                                <input type="radio" id="radioInfo12" value="1" name="listRadio" checked>
+                                                <span>SKT</span>
+                                            </label>
+                                            <label>
+                                                <input type="radio" id="radioInfo22" value="2" name="listRadio">
+                                                <span>KT</span>
+                                            </label>
+                                            <label>
+                                                <input type="radio" id="radioInfo32" value="3" name="listRadio">
+                                                <span>LG U+</span>
+                                            </label>
+                                            <label>
+                                                <input type="radio" id="radioInfo42" value="E" name="listRadio">
+                                                <span>알뜰폰</span>
+                                            </label>
+                                        </div>
+                                        <div class="inp_row mt10" style="display: none;">
+                                            <select class="select" id="selectTel" title="알뜰폰 종류선택">
+                                                <option value="">알뜰폰</option>
+                                                <option value="5">SKT알뜰폰</option>
+                                                <option value="6">KT알뜰폰</option>
+                                                <option value="7">LG U+알뜰폰</option>
+                                            </select>
+                                        </div>
+                                        <div class="inp_row col4 mt10">
+                                            <select id="selectTel0" class="select" title="선택된 폰 첫번째자리선택">
+                                                <option value="010">010</option>                                            
+                                                <option value="011">011</option>                                            
+                                                <option value="016">016</option>                                            
+                                                <option value="017">017</option>                                            
+                                                <option value="018">018</option>                                            
+                                                <option value="019">019</option>
+                                            </select>
+                                            <input type="tel" class="input wid2" id="pesnAuth_t05no2" title="선택된 폰 나머지자리 하이픈 없이 숫자만 입력" placeholder="(-)없이 숫자만 입력">
+                                            <button class="button btn_black">전송</button>
+                                        </div>
+                                        <div class="txt_alert t_red">(-) 하이픈 없이 숫자만 입력해주세요.</div>                                    
+                                        <div class="inp_row col4 mt10">
+                                            <label class="label wid3">
+                                                <input type="tel" class="input" id="sms_auth_num" title="인증번호 6자리 입력" placeholder="인증번호 6자리 입력">                                        
+                                                <span class="time">02:30</span>
+                                            </label>
+                                            <a href="#" class="button btn_black">확인</a>
+                                        </div>
+                                        <div class="txt_alert t_red">인증번호를 입력해주세요.</div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div id="userChkCon2" class="tab_cont">
+                            <ul class="ckeck_inp_list">
+                                <li>
+                                    <p class="tit"><label for="pesnAuth_t04_cno">카드번호(웹)</label></p>
+                                    <div class="cont">
+                                        <div class="inp_row col4">
+                                            <input type="text" class="input" id="pesnAuth_t04_cno" title="카드번호 1번째자리 숫자만 입력" >
+                                            <input type="password" class="input" title="카드번호 2번째자리 숫자만 입력">
+                                            <input type="password" class="input" title="카드번호 3번째자리 하이픈없이 숫자만 입력">
+                                            <input type="text" class="input" title="카드번호 4번째자리 하이픈없이 숫자만 입력">
+                                        </div>
+                                        <div class="txt_alert t_red">카드번호를 입력해 주세요.</div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <p class="tit"><label for="pesnAuth_t04_cno2">카드번호(모바일)</label></p>
+                                    <div class="cont">
+                                        <div class="inp_row"><input type="text" class="input" id="pesnAuth_t04_cno2" title="카드번호 하이픈없이 숫자만 입력" placeholder="(-)없이 숫자만 입력"></div>
+                                        <div class="txt_alert t_red">카드번호를 입력해 주세요.</div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <p class="tit"><label for="selectDateMM0">유효기간</label></p>
+                                    <div class="cont">
+                                        <div class="inp_row col2">
+                                            <select id="selectDateMM0" class="select" title="유효기간 월 선택">
+                                                <option value="">월</option>
+                                                <option value="01">01</option>
+                                                <option value="02">02</option>
+                                                <option value="03">03</option>
+                                                <option value="04">04</option>
+                                                <option value="05">05</option>
+                                                <option value="06">06</option>
+                                                <option value="07">07</option>
+                                                <option value="08">08</option>
+                                                <option value="09">09</option>
+                                                <option value="10">10</option>
+                                                <option value="11">11</option>
+                                                <option value="12">12</option>
+                                            </select>
+                                            <select id="selectDateYY0" class="select" title="유효기간 년도 선택">
+                                                <option value="">년도</option>
+                                                <option value="2018">2018</option>
+                                                <option value="2019">2019</option>
+                                                <option value="2020">2020</option>
+                                                <option value="2021">2021</option>
+                                                <option value="2022">2022</option>
+                                                <option value="2023">2023</option>
+                                                <option value="2024">2024</option>
+                                                <option value="2025">2025</option>
+                                                <option value="2026">2026</option>
+                                                <option value="2027">2027</option>
+                                                <option value="2028">2028</option>
+                                            </select>
+                                        </div>
+                                        <div class="txt_alert t_red">유효기간 월을 선택해주세요.</div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <p class="tit">
+                                        <label for="pesnAuth_t04_cvc">카드고유확인번호</label>
+                                        <span class="f_right"><a href="#popupCardNum" class="btn_popup ui-pop-open">카드고유확인번호 안내</a></span>
+                                    </p>
+                                    <div class="cont">
+                                        <div class="inp_row inp_btn"><input type="text" class="input" id="pesnAuth_t04_cvc" title="카드고유확인번호 숫자 3자리 입력, 5회 이상 오류시 서비스제한" placeholder="숫자 3자리 입력"><span class="btns"><button type="button" class="m_none btn_mouse">마우스로 입력</button></span></div><!-- #09.19 마우스로 입력 버튼 추가 -->
+                                        <div class="txt_alert">5회 이상 오류 시 서비스 제한</div>
+                                        <div class="txt_alert t_red">카드고유확인번호를 3자리로 입력해 주세요.</div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <p class="tit">
+                                        <label for="pesnAuth_t04_pwd">카드비밀번호</label>
+                                        <span class="f_right"><a href="#popupPasswordFail" class="btn_popup ui-pop-open">비밀번호 오류 안내</a></span>
+                                    </p>
+                                    <div class="cont">
+                                        <div class="inp_row inp_btn"><input type="text" class="input" id="pesnAuth_t04_pwd" title="카드비밀번호 숫자 4자리 입력, 3회 이상 오류시 서비스 제한" placeholder="숫자 4자리 입력"><span class="btns"><button type="button" class="m_none btn_mouse">마우스로 입력</button></span></div><!-- #09.19 마우스로 입력 버튼 추가 -->                                   
+                                        <div class="txt_alert">3회 이상 오류 시 서비스 제한</div>
+                                        <div class="txt_alert t_red">카드비밀번호를 4자리로 입력해 주세요.</div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div id="userChkCon3" class="tab_cont">
+                            <div class="user_check_guide">
+                                <p>공인인증서를 통해 간편하게<br><strong>본인인증</strong> 할 수 있습니다.</p>
+                                <div><a href="#" class="btn_popup">공인인증서 안내</a></div>
+                            </div>
+                        </div>
+                        <div id="userChkCon4" class="tab_cont">
+                            <div class="user_check_guide">
+                                <p>신한FAN 앱 결제비밀번호로<br><strong>본인인증</strong>이 가능합니다.</p>
+                                <div><a href="#" class="btn_popup">신한FAN(앱카드) 안내</a></div>
+                            </div>
+                        </div>
+                        <!-- //공통 인증: E -->                   
+                    </div>
+                </div>
+                <div class="h_title_wrap"><h3 class="h_title">직장인 소득유형(선택)</h3></div>
+                <div class="ckeck_inp_wrap">
+                    <div>
+                        <div>직장소득자의 경우 공인인증서로 인증을 하고 정보이용 동의를 하면 간편하게 소득증빙을 할 수 있습니다.</div>
+                        <ul class="ckeck_inp_list">
+                            <li>
+                                <div class="cont">
+                                    <div class="radio_btn full">
+                                        <label>
+                                            <input type="radio" id="radioDrive1" value="1" name="wsCheck" checked>
+                                            <span>비대상자</span>
+                                        </label>
+                                        <label>
+                                            <input type="radio" id="radioDrive2" value="2" name="wsCheck">
+                                            <span>건강보험공단</span>
+                                        </label>
+                                        <label>
+                                            <input type="radio" id="radioDrive3" value="3" name="wsCheck">
+                                            <span>국민연금납부자</span>
+                                        </label>
+                                    </div>
+                                    <ul class="agree_list last mt20" style="display:none;">
+                                        <li>
+                                            <div class="agree_btn">
+                                                <label class="checkbox">
+                                                    <input type="checkbox"><i></i>
+                                                    <span class="lbl">건강보험, 국민연금 공단 정보이용 동의</span>
+                                                </label>
+                                            </div>
+                                            <div class="agree_txt on">
+                                                <div>건강보험, 국민연금 공단 정보이용에 동의하며 보험료 납부액을 자동으로 제출(소득증빙)합니다.</div>
+                                                <div class="btn_popup_wrap">
+                                                    <a href="#popupComIncome" class="btn_popup">전체약관보기</a>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="h_title_wrap"><h3 class="h_title">약관동의</h3></div>                    
+                <ul class="agree_list">
+                    <li class="first">
+                        <div class="agree_btn">
+                            <label class="checkbox">
+                                <input type="checkbox"><i></i>
+                                <strong class="lbl">전체동의</strong>
+                            </label>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="agree_btn">
+                            <label class="checkbox">
+                                <input type="checkbox"><i></i>
+                                <span class="lbl">신용조회 제공 및 활용에 관한 약관동의</span>
+                            </label>
+                            <a href="#" class="btn">약관 확인</a>
+                        </div>
+                        <div class="agree_txt">
+                            <div>본인은 약관에 동의합니다.</div>
+                            <div class="btn_popup_wrap">
+                                <a href="#" class="btn_popup">전체약관보기</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="agree_btn">
+                            <label class="checkbox">
+                                <input type="checkbox"><i></i>
+                                <span class="lbl">본인고객식별정보제공동의</span>
+                            </label>
+                            <a href="#" class="btn">약관 확인</a>
+                        </div>
+                        <div class="agree_txt">
+                            <div>
+                                <p>
+                                    <label class="checkbox">
+                                        <input type="checkbox"><i></i>
+                                        <span class="lbl">본인은 귀사가 상기 제공목적으로 다음과 같은 본인의 고유식별정보를 제공하는 것에 동의합니다.</span>
+                                    </label>
+                                </p>
+                                <p class="chk_txt fz_dw">-(고유식별정보 : 주민등록번호, 여권번호, 외국인등록번호)</p>
+                            </div>
+                            <div>
+                                <label class="checkbox">
+                                    <input type="checkbox"><i></i>
+                                    <span class="lbl">상기 개인(신용)정보의 필수적인 제공에 관한 사항에 동의하십니까?</span>
+                                </label>
+                            </div>
+                            <div class="btn_popup_wrap">
+                                <a href="#" class="btn_popup">전체약관보기</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+
+                <div class="button_wrap btn1">
+                    <a href="#" class="button btn_black h50">본인인증하기</a>
+                </div>
+                <dl class="slide_dl">
+                    <dt>
+                        <a href="#none">유의사항 <span class="blind">상세내용 열고 닫기</span></a>
+                    </dt>
+                    <dd>
+                        <ul class="txt_list f16">
+                            <li>고객님 본인의 주민등록번호를 입력하시고 확인 버튼을 누르시면 조회가 가능합니다. 최근 3개월 이내의 신청내역이 조회됩니다.</li>
+                            <li>가족카드의 발급진행 상황은 본인회원의 주민등록번호로 조회해 주시기 바랍니다.</li>
+                            <li>붉은색으로 ‘배송 중’ 또는 ‘배송완료’로 표시되는 경우 배송진행 이력을 조회할 수 있습니다.</li>
+                            <li>기타 문의는 신한카드 고객센터(<strong>☎ 1544-7000</strong>)로 문의하시기 바랍니다.</li>
+                        </ul>
+                    </dd>
+                </dl>
+			</div>
+		</section>
+	</div>
+	<!-- //container -->
+	<!-- footer -->
+	<footer id="footer">
+		<div class="ly_inner">
+		</div>
+	</footer>
+	<!-- //footer -->
+</div>
+<!-- //wrap -->
+<!-- popup -->
+<!-- 카드고유확인번호 안내 -->
+<div id="popupCardNum" class="pop_wrap">
+    <article class="popup">
+        <div class="pop_head">
+            <h1>카드고유번호확인 안내</h1>
+        </div>
+        <div class="pop_cont">
+            <div class="card_info">
+	            <img src="conts/images/member/member_pop_card.png" alt="카드 고유번호">
+	            <ul class="card_list">
+	                <li>고객님의 안전한 온라인거래를 위한 확인 번호로써 고객님의 카드 뒷면 서명란에 인쇄되어 있는 19자리 또는 7자리 중 가장 뒤에 오는 3자리 숫자입니다.</li>
+	                <li>카드고유확인번호가 없는 경우(확인 불가능한 경우 제외)에는 카드고유확인번호를 입력하지 않으셔도 됩니다.</li>
+	            </ul>
+            </div>
+        </div>
+        <div class="pop_btn">
+            <a href="#" class="button h50 btn_black">확인하기</a>
+        </div>
+        <a href="#" class="btn_close ui-pop-close">팝업닫기</a>
+    </article>
+</div>
+<!-- //카드고유확인번호 안내 -->
+<!-- 비밀번호 오류 안내 -->
+<div id="popupPasswordFail" class="pop_wrap">
+    <article class="popup">
+        <div class="pop_head">
+            <h1>비밀번호오류안내</h1>
+        </div>
+        <div class="pop_cont">
+            <div class="pw_fail_info">
+	            <p>카드 비밀번호를 3회이상 오류입력하신 경우 안전한 거래를 위하여 비밀번호 이용이 필요한 모든 거래가 일시적으로 중지됩니다. 따라서 다음과 같은 방법으로 비밀번호 오류를 해제 및 새로운 비밀번호 변경후 이용하시기바랍니다.</p>
+	            <h2>오류해제</h2>
+	            <p>카드소지후 신한카드 고객센터(1544-7000)로 연락하시어 해제요청</p>
+	            <h2>비밀번호 변경요청</h2>
+	            <p>카드소지후 신한카드 고객센터(1544-7000)로 연락하시어 변경요청<br />카드와 신분증 지참후 가까운 신한은행 및 카드지점으로 방문하시어 변경요청<br />단, 2개월 이내 비밀번호 변경이력이 있는 경우 방문변경만 가능합니다.</p>
+            </div>
+        </div>
+        <div class="pop_btn">
+            <a href="#" class="button h50 btn_black">확인하기</a>
+        </div>
+        <a href="#" class="btn_close ui-pop-close">팝업닫기</a>
+    </article>
+</div>
+<!-- //비밀번호 오류 안내 -->
+<!-- 직장 및 소득정보자동확인안내 -->
+<div id="popupComIncome" class="pop_wrap">
+    <article class="popup">
+        <div class="pop_head">
+            <h1>직장 및 소득정보자동확인안내</h1>
+        </div>
+        <div class="pop_cont">
+            <div class="com_income_info">
+                <p>공인인증을 통해 별도 서류제출 절차 없이 자동증빙 하실 수 있으며, 아래와 같이 총 2회의 공인인증이 실시됩니다.</p>
+                <ul class="com_list">
+                    <li>신용정보 조회 및 활용 동의를 위한 공인인증</li>
+                    <li>건강보험, 국민연금 공단 정보 수집 및 활용 동의를 위한 공인인증</li>
+                </ul>
+                <p>또한 건강보험료, 국민연금 납부&수령 정보를 수집할 수 있는 프로그램이 자동 설치 되오니 이점 양지바랍니다.</p>
+            </div>
+        </div>
+        <div class="pop_btn">
+            <a href="#" class="button h50 btn_black">확인하기</a>
+        </div>
+        <a href="#" class="btn_close ui-pop-close">팝업닫기</a>
+    </article>
+</div>
+<!-- //비밀번호 오류 안내 -->
+<!-- //popup -->
+<script>
+$(function(){
+    //통신사 radio
+    $('input[name=listRadio]').change(function(){
+        var $val = $(this).val(),
+            $next = $(this).closest('.radio_btn').next();
+        
+        if($val == 'E'){
+            $next.show();
+        }else{
+            $next.hide();
+        }
+    });
+
+    //소득유형 radio
+    $('input[name=wsCheck]').change(function(){
+        var $val = $(this).val(),
+            $tar = $(this).closest('.ckeck_inp_wrap').find('.agree_list');
+        
+        if($val == '1'){
+            $tar.hide();
+        }else{
+            $tar.show();
+        }
+    });
+})
+</script>
+</body>
+</html>

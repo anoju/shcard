@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* ==========================================================================
+   font
+   ========================================================================== */
+@font-face{
+	font-family: 'shinhanFont';
+	src: local(※);
+	src: url('../fonts/ShinhanCardL.eot') format('embeded-opentype');
+	src: url('../fonts/ShinhanCardL.woff') format('woff');
+	src: url('../fonts/ShinhanCardL.woff') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face{
+	font-family: 'shinhanFont';
+	src: local(※);
+	src: url('../fonts/ShinhanCardM.eot') format('embeded-opentype');
+	src: url('../fonts/ShinhanCardM.woff') format('woff');
+	src: url('../fonts/ShinhanCardM.woff') format('truetype');
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face{
+	font-family: 'shinhanFont';
+	src: local(※);
+	src: url('../fonts/ShinhanCardB.eot') format('embeded-opentype');
+	src: url('../fonts/ShinhanCardB.woff') format('woff');
+	src: url('../fonts/ShinhanCardB.woff') format('truetype');
+	font-weight: 900;
+	font-style: normal;
+}
